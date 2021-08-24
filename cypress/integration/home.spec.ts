@@ -17,7 +17,7 @@ describe('home page', () => {
       .should('be.visible');
   });
 
-  it('should clicks button to visit docs', () => {
+  it('should clicks button to visit intro page', () => {
     cy.get('button')
       .contains(/getting started/i)
       .click();
